@@ -1,20 +1,17 @@
-import java.util.*;
- 
-class Pattern
-{
-	public static void main(String args[])
-	{
-		int i,j,n;
- 		Scanner sc = new Scanner(System.in);
-    	//	System.out.println("Enter the no of lines");
- 		n=sc.nextInt();
-    		for(i=n;i>=1;i--)
-    		{
-        		for(j=1;j<=i;j++)
-        		{
-            			System.out.print((char)(i+64)+ " ");
-        		}
-         		System.out.println("");
-    		}
-	}
+import java.util.Scanner;
+class pattern {
+
+ public static void main(String[] args) {
+  Scanner cs=new Scanner(System.in);
+  int row_size,out,in;
+   row_size=cs.nextInt();
+   for(out=row_size;out>=1;out--)
+    {
+     for(in=row_size;in>=1;in--)
+      System.out.print(in+ " ");
+
+          System.out.println();
+    }
+  cs.close();
+ }
 }
