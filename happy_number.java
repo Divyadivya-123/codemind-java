@@ -1,4 +1,3 @@
-
 import java.util.*;
 class HappyNumber
 {
@@ -18,7 +17,7 @@ class HappyNumber
 	{
 		//Take number from KeyBoard
 		Scanner sc = new Scanner (System.in);
-	//	System.out.print("Enter a non-zero Positive Number:");
+		//System.out.println();
 		int number = sc.nextInt( );
 		int result = number;
 		while (result != 1 && result != 4)
@@ -35,4 +34,3 @@ class HappyNumber
 		}
 	}
 }
-
