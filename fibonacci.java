@@ -17,5 +17,4 @@ class Sample
             }
             sc.close();
             }
-    
 }
