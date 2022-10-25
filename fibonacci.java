@@ -5,7 +5,7 @@ class Sample
     {
         Scanner sc=new Scanner(System.in);
         int n,a=0,b=1,c,count=3;
-        n=sc.nextInt();
+        n=sc.nextInt(); 
         System.out.print(a+" "+b+" ");
         while(count<=n)
         {
@@ -14,8 +14,8 @@ class Sample
             b=c;
             System.out.print(c+" ");
             count++;
-        }
-        sc.close();
+            }
+            sc.close();
+            }
     
-    }
 }
