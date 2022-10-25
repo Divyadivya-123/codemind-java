@@ -17,7 +17,7 @@ class HappyNumber
 	{
 		//Take number from KeyBoard
 		Scanner sc = new Scanner (System.in);
-		//System.out.println();
+		//System.out.print("Enter a non-zero Positive Number:");
 		int number = sc.nextInt( );
 		int result = number;
 		while (result != 1 && result != 4)
